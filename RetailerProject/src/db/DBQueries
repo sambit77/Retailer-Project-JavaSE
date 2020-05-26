@@ -1,0 +1,6 @@
+//database credentials
+   URL =  jdbc:oracle:thin:@localhost:1521:xe
+   username = system , password= lit;
+
+   1. create table retailer(username varchar2(20),password varchar2(20));
+2.create table customer(name varchar2(20),phone varchar2(20),email varchar2(20),address varchar2(20),balance varchar2(20),lastAdded varchar2(20),lastDeducted varchar2(20));
